@@ -1,0 +1,112 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets
+# =========================
+secrets/
+credentials/
+tokens/
+*.pem
+*.key
+*.crt
+
+# =========================
+# Telegram
+# =========================
+telegram.session
+telegram.session-journal
+
+# =========================
+# Scraper Temporary Files
+# =========================
+tmp/
+temp/
+cache/
+downloads/
+scraped_data/
+raw_data/
+
+# =========================
+# Hugging Face
+# =========================
+.huggingface/
+hf_cache/
+
+# =========================
+# Local Databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Render
+# =========================
+.render/
+
+# =========================
+# Agents / Codex
+# =========================
+.agents/
+.codex/
